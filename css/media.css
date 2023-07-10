@@ -93,6 +93,7 @@
     #belu {
         transform: translateY(125%);
         margin-left:5% ;
+        width:50%;
     }
 
     .header-col1 {
