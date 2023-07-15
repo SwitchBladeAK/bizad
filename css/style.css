@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behaviour:smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 #getin {
