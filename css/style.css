@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behaviour:smooth;
+}
 
 #getin {
     z-index: 1;
