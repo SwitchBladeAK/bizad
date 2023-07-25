@@ -124,6 +124,8 @@
                     style="margin-left: 4%;"  data-aos="fade-up"
                     data-aos-delay="1400"> JOIN COMMUNITY</button></a>
         </div>
+
+        
         <div class="header-col2">
         </div>
         <div class="clear"></div>
@@ -137,6 +139,43 @@
         </div>
 
     </section>
+      
+    <section>
+        <video autoplay="true" controls data-aos="fade-down" data-aos-delay="200" style="margin-left: 15%; border-radius: 1.2rem;margin-top: 10%;margin-bottom: 0;scale: 1;" width="70%" height="70%" media="(max-width: 768px)">
+            <source src="./images/Bizad_vid.mp4" type="video/mp4">
+            <script>
+                var video = document.querySelector("video");
+                var observer = new IntersectionObserver(function(entries) {
+                    if (entries[0].isIntersecting) {
+                        video.play();
+                    } else {
+                        video.pause();
+                    }
+                }, {
+                    thresholds: [0.5]
+                });
+    
+                observer.observe(video);
+
+                function scaleVideoForMobile() {
+                if (window.innerWidth <= 768) {
+                    video.style.width = "90%";
+                    video.style.height = "90%";
+                    video.style.marginLeft = "6%";
+                } else {
+                    video.style.width = "70%";
+                    video.style.height = "70%";
+                    video.style.scale = "1.2";
+                }
+            }
+
+            window.addEventListener("resize", scaleVideoForMobile);
+            </script>
+          </video>
+    </section>
+    
+    
+    
 
     <section id="feature-sec">
         <div class="text-center">
@@ -488,6 +527,22 @@
 
         </section>
 
+        <section id="products"> 
+            <div class="basic-price-col rec-price" style="width: 60%;margin-bottom: 8%;display: flex;justify-content: center;align-items: center;margin-left: 20%;margin-bottom: 10%;">
+                <div class="basic-price-info">
+                    <h4>The AI Prompter’s Guide</h4>
+                    <div class="price">
+                        <p>$2.43</p>
+                    </div>
+                    <div>
+                        <img style="width: 15rem;" src="./images/Cover.png" alt="">
+                    </div>
+
+                    <a href="https://topmate.io/bizad/439529"><button type="button" class="price-btn">BUY NOW</button></a>
+                </div>
+
+            </div>
+        </section>
         <Section id="contact">
             <div class="container">
                 <div class="form-par" data-aos="fade-up"

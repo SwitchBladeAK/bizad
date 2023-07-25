@@ -923,14 +923,17 @@ button.price-btn {
     color: #fff;
     padding: 13px 40px;
     border-radius: 10px;
-    background-image: linear-gradient(20deg, #ff841f 0%, #ff9721 57%) !important;
+    background-color: #a175f8;
     margin-top: 20px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 button.price-btn:hover {
-    background-image: linear-gradient(20deg, #ff9721 0%, #ff841f 57%) !important;
+   background-color: #5E17EB;
+   cursor: pointer;
+   scale: 1.1;
+
 }
 
 .rec-price {
